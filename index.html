@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Adding Game </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Title -->
+  <h1>What is the sum?</h1>
+
+<!-- Question -->
+  <table class="center">
+    <tr>
+      <td>
+        <div class="Addend">
+          <span class="circle"><span>
+          <div class="number" id="AddendOne"></div>
+        </div>
+      </td>
+      <td>
+        <div class="plus">+</div>
+      </td>
+      <td>
+        <div class="Addend">
+          <span class="circle"><span>
+          <div class="number" id="AddendTwo"></div>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Choices -->
+  <div class="ButtonCenter">
+    <button class="button" id="c1" onclick="clicked(0)"></button>
+    <button class="button" id="c2" onclick="clicked(1)"></button>
+    <button class="button" id="c3" onclick="clicked(2)"></button>
+    <button class="button" id="c4" onclick="clicked(3)"></button>
+  </div>
+</body>
+
+<script src="app.js"></script>
+</html>
